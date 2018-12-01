@@ -1,0 +1,6 @@
+@article{xu2015turkergaze,
+  title={Turkergaze: Crowdsourcing saliency with webcam based eye tracking},
+  author={Xu, Pingmei and Ehinger, Krista A and Zhang, Yinda and Finkelstein, Adam and Kulkarni, Sanjeev R and Xiao, Jianxiong},
+  journal={arXiv preprint arXiv:1504.06755},
+  year={2015}
+}

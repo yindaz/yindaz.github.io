@@ -1,0 +1,8 @@
+@article{zhang2014panocontext,
+  title={Panocontext: A whole-room 3d context model for panoramic scene understanding},
+  author={Zhang, Yinda and Song, Shuran and Tan, Ping and Xiao, Jianxiong},
+  booktitle={European Conference on Computer Vision},
+  pages={668--686},
+  year={2014},
+  organization={Springer}
+}

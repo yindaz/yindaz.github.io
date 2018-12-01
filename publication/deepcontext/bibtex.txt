@@ -1,0 +1,8 @@
+@inproceedings{zhang2017deepcontext,
+  title={DeepContext: Context-Encoding Neural Pathways for 3D Holistic Scene Understanding},
+  author={Zhang, Yinda and Bai, Mingru and Kohli, Pushmeet and Izadi, Shahram and Xiao, Jianxiong},
+  booktitle={2017 IEEE International Conference on Computer Vision (ICCV)},
+  pages={1201--1210},
+  year={2017},
+  organization={IEEE}
+}

@@ -1,0 +1,6 @@
+@inProceedings{wang2018pixel2mesh,
+  title={Pixel2Mesh: Generating 3D Mesh Models from Single RGB Images},
+  author={Nanyang Wang and Yinda Zhang and Zhuwen Li and Yanwei Fu and Wei Liu and Yu-Gang Jiang},
+  booktitle={ECCV},
+  year={2018}
+}

@@ -1,0 +1,7 @@
+@phdthesis{zhang2018From,
+  author = {Yinda Zhang},
+  title = {{From Pixels to Scenes: Recovering 3D Geometry and Semantics for Indoor Environments},
+  publisher = {Princeton University Computer Science Department},
+  address = {Princeton, NJ, USA},
+  year = {2018},
+}

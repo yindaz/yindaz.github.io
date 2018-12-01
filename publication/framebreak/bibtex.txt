@@ -1,0 +1,5 @@
+@inproceedings{zhang2013framebreak,
+  title={FrameBreak: Dramatic Image Extrapolation by Guided Shift-Maps},
+  author={Zhang, Yinda and Xiao, Jianxiong and Hays, James and Tan, Ping},
+  booktitle={2013 IEEE Conference on Computer Vision and Pattern Recognition}
+}

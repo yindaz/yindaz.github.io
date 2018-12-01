@@ -1,0 +1,6 @@
+@article{zhang2016physically,
+  title={Physically-Based Rendering for Indoor Scene Understanding Using Convolutional Neural Networks},
+  author={Zhang, Yinda and Song, Shuran and Yumer, Ersin and Savva, Manolis and Lee, Joon-Young and Jin, Hailin and Funkhouser, Thomas},
+  journal={The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2017}
+}

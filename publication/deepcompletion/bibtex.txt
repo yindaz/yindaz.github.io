@@ -1,0 +1,6 @@
+@article{zhang2018deepdepth,
+	  title={Deep Depth Completion of a Single RGB-D Image},
+	  author={Zhang, Yinda and Funkhouser, Thomas},
+	  journal={The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+	  year={2018}
+	}
