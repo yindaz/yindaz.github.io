@@ -24,6 +24,7 @@
     <link href="css/starter-template.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="css/theme.css" rel="stylesheet">
+
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
@@ -35,6 +36,8 @@
   </head>
 
   <body>
+
+    
 
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
@@ -121,14 +124,52 @@
             <h2>News</h2>
         </div>
 
-        <ul>
+        <div class="news_table">
+            <table>
+                <tr>
+                  <td class="news_date">2019.12</td>
+                  <td class="news_news">Our deep learning based solution for image based depth estimation has been deloyed on Google Pixel4 for Portrait Mode. Check this <a href="https://ai.googleblog.com/2019/12/improvements-to-portrait-mode-on-google.html">Google AI blogpost</a> for more details.</td>
+                </tr>
+                <tr>
+                  <td class="news_date">2019.07</td>
+                  <td class="news_news">Pixel2Mesh++ is accepted by ICCV2019. Check <a href="https://arxiv.org/abs/1908.01491">here</a> for the paper.</td>
+                </tr>
+                <tr>
+                  <td class="news_date">2019.03</td>
+                  <td class="news_news">DeepLidar paper is accepted by CVPR2019.</td>
+                </tr>
+                <tr>
+                  <td class="news_date">2018.12</td>
+                  <td class="news_news">I started working at Google as a Research Scientist.</td>
+                </tr>
+                <tr>
+                  <td class="news_date">2018.11</td>
+                  <td class="news_news">I obtain Ph.D degree from Princeton University.</td>
+                </tr>
+                <tr>
+                  <td class="news_date">2018.11</td>
+                  <td class="news_news">I am awarded as <a href="http://www.siebelscholars.com/">Siebel Scholar Class of 2019</a>.</td>
+                </tr>
+                <tr>
+                  <td class="news_date">2018.07</td>
+                  <td class="news_news">ActiveStereoNet is accepted as oral presentation by <a href="https://eccv2018.org/">ECCV 2018</a>.</td>
+                </tr>
+                <tr>
+                  <td class="news_date">2018.07</td>
+                  <td class="news_news">Pixel2Mesh is accepted by <a href="https://eccv2018.org/">ECCV 2018</a>.</td>
+                </tr>
+            </table>
+        </div>      
+
+        <!-- <ul>
+            <li>Check our <a href="https://arxiv.org/abs/1911.13225">solution</a> to render deep implicit function.</li>
             <li>Pixel2Mesh++ is accepted by ICCV2019. Check <a href="https://arxiv.org/abs/1908.01491">here</a> for the paper.</li>
             <li>DeepLidar paper is accepted by CVPR2019.</li>
-            <!-- <li>I jointhandned Google in Dec 2018.</li> -->
+            <li>I jointhandned Google in Dec 2018.</li>
             <li>I am awarded as <a href="http://www.siebelscholars.com/">Siebel Scholar Class of 2019</a>.</li>
             <li>ActiveStereoNet is accepted as oral presentation by <a href="https://eccv2018.org/">ECCV 2018</a>.</li>
             <li>Pixel2Mesh is accepted by <a href="https://eccv2018.org/">ECCV 2018</a>.</li>
-        </ul>
+        </ul> -->
 
 
         <!-- <div class="page-header" id="recent">
@@ -148,6 +189,52 @@
         <div class="row featurette align-items-center">
             <div class="col-md-2">
                 <br>
+                <img class="featurette-image img-responsive img-thumbnail"  src="publication/NPCR/icon.jpg" alt="NPCR" style="width:256px;" />
+            </div>
+            <div class="col-md-10">
+                <h4 class="featurette-heading" data-toggle="tooltip" > Neural Point Cloud Rendering via Multi-Plane Projection</h4>
+                <p> P. Dai, <b>Y. Zhang</b>, Z. Li, S. Liu, B. Zeng</p>
+                <p> arXiv:1912.04645 [cs.CV], Dec 10, 2019</p>
+                <p> 
+                <!-- [<a href="Coming Soon">Paper</a>] -->
+                <!-- [<a href="Coming Soon">Supplimentary</a>] -->
+                [<a href="https://arxiv.org/pdf/1912.04645.pdf">Paper</a>]
+                <!-- [<a href="">Code and Data (Coming Soon!)</a>] -->
+                <!-- [<a href="https://www.dropbox.com/s/jgs0pijcseo7xtp/slides.pdf?dl=0">Oral Presentation</a>] -->
+                <!-- [<a href="http://b1ueber2y.me/projects/DIST-Renderer/">Project Webpage</a>]
+                [<a href="https://www.youtube.com/watch?v=A6-W55VZeK0&feature=emb_title">Video</a>] -->
+                </p>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row featurette align-items-center">
+            <div class="col-md-2">
+                <br>
+                <img class="featurette-image img-responsive img-thumbnail"  src="publication/DIST/icon.png" alt="DIST" style="width:256px;" />
+            </div>
+            <div class="col-md-10">
+                <h4 class="featurette-heading" data-toggle="tooltip" > DIST: Rendering Deep Implicit Signed Distance Function with Differentiable Sphere Tracing</h4>
+                <p> S. Liu, <b>Y. Zhang</b>, S. Peng, B. Shi, M. Pollefeys, Z. Cui</p>
+                <p> arXiv:1911.13225 [cs.CV], Nov 29, 2019</p>
+                <p> 
+                <!-- [<a href="Coming Soon">Paper</a>] -->
+                <!-- [<a href="Coming Soon">Supplimentary</a>] -->
+                [<a href="https://arxiv.org/abs/1911.13225">Paper</a>]
+                [<a href="">Code and Data (Coming Soon!)</a>]
+                <!-- [<a href="https://www.dropbox.com/s/jgs0pijcseo7xtp/slides.pdf?dl=0">Oral Presentation</a>] -->
+                [<a href="http://b1ueber2y.me/projects/DIST-Renderer/">Project Webpage</a>]
+                [<a href="https://www.youtube.com/watch?v=A6-W55VZeK0&feature=emb_title">Video</a>]
+                </p>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row featurette align-items-center">
+            <div class="col-md-2">
+                <br>
                 <img class="featurette-image img-responsive img-thumbnail"  src="publication/Pixel2MeshPlus/icon.png" alt="Pixel2Mesh++" style="width:256px;" />
             </div>
             <div class="col-md-10">
@@ -157,7 +244,7 @@
                 <p> 
                 <!-- [<a href="Coming Soon">Paper</a>] -->
                 <!-- [<a href="Coming Soon">Supplimentary</a>] -->
-                [<a href="https://arxiv.org/abs/1908.01491">Arxiv</a>]
+                [<a href="https://arxiv.org/abs/1908.01491">Paper</a>]
                 [<a href="https://github.com/walsvid/Pixel2MeshPlusPlus">Code and Data</a>]
                 <!-- [<a href="https://www.dropbox.com/s/jgs0pijcseo7xtp/slides.pdf?dl=0">Oral Presentation</a>] -->
                 [<a href="https://walsvid.github.io/Pixel2MeshPlusPlus/">Project Webpage</a>]
@@ -180,7 +267,7 @@
                 <p> 
                	<!-- [<a href="Coming Soon">Paper</a>] -->
                 <!-- [<a href="Coming Soon">Supplimentary</a>] -->
-                [<a href="https://arxiv.org/pdf/1812.00488.pdf">Arxiv</a>]
+                [<a href="https://arxiv.org/pdf/1812.00488.pdf">Paper</a>]
                 [<a href="https://github.com/JiaxiongQ/DeepLiDAR">Code and Data</a>]
                 <!-- [<a href="https://www.dropbox.com/s/jgs0pijcseo7xtp/slides.pdf?dl=0">Oral Presentation</a>] -->
                 <!-- [<a href="http://asn.cs.princeton.edu">Project Webpage</a>] -->
@@ -601,8 +688,18 @@
         <li>Tutorial on 3D Deep Learning with Marvin (CVPR 2016)</li>
         </ul>
 
-        <br>
+    <!--     <br>
         
+        <h4>Academic Dataset:</h4>
+        <ul>
+        <li><a href="https://niessner.github.io/Matterport/">Matterport3D: </a></li>
+        <li><a href="http://lsun.cs.princeton.edu">Depth Completion Dataset</a></li>
+        <li><a href="http://lsun.cs.princeton.edu">LSUN</a></li>
+        <li><a href="http://lsun.cs.princeton.edu">iSUN</a></li>
+        </ul> -->
+
+        <br>
+
         <h4>Reviewer of Conferences:</h4>
         <p>CVPR, ECCV, ICCV, NIPS, AAAI, BMVC, 3DV, ACCV, ICPR, ICRA</p>
 

@@ -3,6 +3,18 @@ body {
   padding-bottom: 30px;
 }
 
+.news_table {
+    overflow-y: scroll;
+    height: 200px;
+}
+
+.news_date {
+    font-style: italics;
+    width: 180px;
+    padding-left: 50px;
+    height: 40px;
+}
+
 .header-img {
   padding-top: 20vh;
   padding-bottom: 55vh;
