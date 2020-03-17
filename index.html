@@ -11,7 +11,7 @@
 
     <link rel="shortcut icon" href="./img/favicon.ico">
 
-    <title>Yinda Zhang | Princeton University</title>
+    <title>Yinda Zhang | Google</title>
 
     <!-- Bootstrap core CSS -->
     <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
@@ -39,7 +39,7 @@
 
     
 
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="navbar">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -127,6 +127,15 @@
         <div class="news_table">
             <table>
                 <tr>
+                  <td class="news_date">2020.02</td>
+                  <td class="news_news"><a href="#publication_pixel2mesh">Pixel2Mesh</a>  is accepted by IEEE Transactions of Pattern Analysis and Machine Intelligence.</td>
+                </tr>
+                <tr>
+                <tr>
+                  <td class="news_date">2020.02</td>
+                  <td class="news_news"><a href="#publication_NPT">Four</a> papers are accepted by CVPR2020.</td>
+                </tr>
+                <tr>
                   <td class="news_date">2019.12</td>
                   <td class="news_news">Our deep learning based solution for image based depth estimation has been deloyed on Google Pixel4 for Portrait Mode. Check this <a href="https://ai.googleblog.com/2019/12/improvements-to-portrait-mode-on-google.html">Google AI blogpost</a> for more details.</td>
                 </tr>
@@ -186,15 +195,37 @@
             <h2>Publications</h2>
         </div>
 
-        <div class="row featurette align-items-center">
+        <div class="row featurette align-items-center" id="publication_NPT">
+            <div class="col-md-2">
+                <img class="featurette-image img-responsive img-thumbnail"  src="publication/neuralposetransfer/icon.jpg" alt="NPT" style="width:256px;" />
+            </div>
+            <div class="col-md-10">
+                <h4 class="featurette-heading" data-toggle="tooltip" > Neural Pose Transfer by Spatially Adaptive Instance Normalization</h4>
+                <p> J. Wang, C. Wen, Y. Fu, H. Lin, T. Zou, X. Xue, <b>Y. Zhang</b></p>
+                <p> Computer Vision and Pattern Recognition (CVPR 2020)</p>
+                <p> 
+                <!-- [<a href="Coming Soon">Paper</a>] -->
+                <!-- [<a href="Coming Soon">Supplimentary</a>] -->
+                [<a href="https://arxiv.org/pdf/2003.07254.pdf">Paper</a>]
+                <!-- [<a href="">Code and Data (Coming Soon!)</a>] -->
+                <!-- [<a href="https://www.dropbox.com/s/jgs0pijcseo7xtp/slides.pdf?dl=0">Oral Presentation</a>] -->
+                <!-- [<a href="http://b1ueber2y.me/projects/DIST-Renderer/">Project Webpage</a>]
+                [<a href="https://www.youtube.com/watch?v=A6-W55VZeK0&feature=emb_title">Video</a>] -->
+                </p>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row featurette align-items-center" id="publication_NPCR">
             <div class="col-md-2">
                 <br>
                 <img class="featurette-image img-responsive img-thumbnail"  src="publication/NPCR/icon.jpg" alt="NPCR" style="width:256px;" />
             </div>
             <div class="col-md-10">
                 <h4 class="featurette-heading" data-toggle="tooltip" > Neural Point Cloud Rendering via Multi-Plane Projection</h4>
-                <p> P. Dai, <b>Y. Zhang</b>, Z. Li, S. Liu, B. Zeng</p>
-                <p> arXiv:1912.04645 [cs.CV], Dec 10, 2019</p>
+                <p> P. Dai<sup>*</sup>, <b>Y. Zhang<sup>*</sup></b>, Z. Li<sup>*</sup>, S. Liu, B. Zeng</p>
+                <p> Computer Vision and Pattern Recognition (CVPR 2020)</p>
                 <p> 
                 <!-- [<a href="Coming Soon">Paper</a>] -->
                 <!-- [<a href="Coming Soon">Supplimentary</a>] -->
@@ -217,7 +248,7 @@
             <div class="col-md-10">
                 <h4 class="featurette-heading" data-toggle="tooltip" > DIST: Rendering Deep Implicit Signed Distance Function with Differentiable Sphere Tracing</h4>
                 <p> S. Liu, <b>Y. Zhang</b>, S. Peng, B. Shi, M. Pollefeys, Z. Cui</p>
-                <p> arXiv:1911.13225 [cs.CV], Nov 29, 2019</p>
+                <p> Computer Vision and Pattern Recognition (CVPR 2020)</p>
                 <p> 
                 <!-- [<a href="Coming Soon">Paper</a>] -->
                 <!-- [<a href="Coming Soon">Supplimentary</a>] -->
@@ -235,7 +266,7 @@
         <div class="row featurette align-items-center">
             <div class="col-md-2">
                 <br>
-                <img class="featurette-image img-responsive img-thumbnail"  src="publication/Pixel2MeshPlus/icon.png" alt="Pixel2Mesh++" style="width:256px;" />
+                <img class="featurette-image img-responsive img-thumbnail"  src="publication/pixel2meshplus/icon.png" alt="Pixel2Mesh++" style="width:256px;" />
             </div>
             <div class="col-md-10">
                 <h4 class="featurette-heading" data-toggle="tooltip" > Pixel2Mesh++: Multi-View 3D Mesh Generation via Deformation</h4>
@@ -278,7 +309,7 @@
 
         <br>
 
-        <div class="row featurette align-items-center">
+        <div class="row featurette align-items-center" id="publication_activestereo">
             <div class="col-md-2">
                 <br>
                 <img class="featurette-image img-responsive img-thumbnail"  src="publication/activestereo/icon.jpg" alt="ActiveStereoNet" style="width:256px;" />
@@ -300,7 +331,7 @@
 
         <br>
 
-        <div class="row featurette">
+        <div class="row featurette" id="publication_pixel2mesh">
             <div class="col-md-2">
                 <br>
                 <img class="featurette-image img-responsive img-thumbnail"  src="publication/pixel2mesh/icon.jpg" alt="pixel2mesh" style="width:256px;" />
@@ -701,7 +732,7 @@
         <br>
 
         <h4>Reviewer of Conferences:</h4>
-        <p>CVPR, ECCV, ICCV, NIPS, AAAI, BMVC, 3DV, ACCV, ICPR, ICRA</p>
+        <p>CVPR, ECCV, ICCV, SIGGRAPH, NIPS, AAAI, BMVC, 3DV, ACCV, ICPR, ICRA</p>
 
         <br>
         <h4>Reviewer of Journals:</h4>
@@ -756,6 +787,18 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+          if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar").style.top = "0";
+          } else {
+            document.getElementById("navbar").style.top = "-50px";
+          }
+          prevScrollpos = currentScrollPos;
+        }
+    </script>
   </body>
 </html>
 
