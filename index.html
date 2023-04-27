@@ -87,7 +87,7 @@
                     <br>
                     <!-- <h4>Brief Bio.:</h4> -->
 
-                    <p>I am a Senior Research Scientist at Google. 
+                    <p>I am a research scientist and manager at Google. 
 
                     My research interests lie at the intersection of computer vision, computer graphics, and machine learning. Recently, I focus on empowering 3D vision and perception via machine learning, including dense depth estimation, 3D shape analysis, 3D scene understanding, and neural rendering.
 
@@ -126,6 +126,11 @@
 
         <div class="news_table">
             <table>
+                <tr>
+                  <td class="news_date">2023.04</td>
+                  <td class="news_news">One paper is accepted by CHI 2023.
+                  </td>
+                </tr>
                 <tr>
                   <td class="news_date">2023.02</td>
                   <td class="news_news">Four papers accepted by CVPR2023.
@@ -267,13 +272,113 @@
           <button class="btn" onclick="filterSelection('3d_geometry')"> 3D Geometry</button>
           <button class="btn" onclick="filterSelection('scene_understanding')"> Scene Understanding</button>
           <button class="btn" onclick="filterSelection('digital_human')"> Digital Human</button>
-          <button class="btn" onclick="filterSelection('dataset')"> Dataset</button>
+          <button class="btn" onclick="filterSelection('dataset')"> Dataset/Tool</button>
           <button class="btn" onclick="filterSelection('all')"> All</button>
         </div>
         <br>
 
         <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
         <div class="container">
+
+          <div class="filterDiv neural_rendering digital_human selected">
+            <div class="row featurette align-items-center" id="CVPR2023_MonoAvatar">
+                <div class="col-md-2">
+
+                    <img class="featurette-image img-responsive img-thumbnail"  src="publication/cvpr2023/CVPR2023_MonoAvatar.gif" alt="monoavatar" style="width:256px;" />
+                </div>
+                <div class="col-md-10">
+                    <h4 class="featurette-heading" data-toggle="tooltip" > MonoAvatar: Learning Personalized High Quality Volumetric Head Avatars from Monocular RGB Videos</h4>
+                    <p> Z. Bai, F. Tan, Z. Huang, K. Sarkar, D. Tang, D. Qiu, A. Meka, R. Du, M. Dou, S. Orts-Escolano, R. Pandey, P. Tan, T. Beeler, S. Fanello, <b>Y. Zhang</b></p>
+                    <p> Computer Vision and Pattern Recognition (CVPR 2023)</p>
+                    <p> 
+                    [<a href="https://arxiv.org/abs/2304.01436">Paper</a>]
+                    [<a href="https://augmentedperception.github.io/monoavatar/">Project Webpage</a>]
+                    </p>
+                </div>
+            </div>
+            <br>
+          </div>
+
+          <div class="filterDiv neural_rendering selected">
+            <div class="row featurette align-items-center" id="CVPR2023_SINE">
+                <div class="col-md-2">
+
+                    <img class="featurette-image img-responsive img-thumbnail"  src="publication/cvpr2023/CVPR2023_SINE.gif" alt="sine" style="width:256px;" />
+                </div>
+                <div class="col-md-10">
+                    <h4 class="featurette-heading" data-toggle="tooltip" > SINE: Semantic-driven Image-based NeRF Editing with Prior-guided Editing Field</h4>
+                    <p> C. Bao<sup>*</sup>, <b>Y. Zhang<sup>*</sup></b>, B. Yang<sup>*</sup>, T. Fan, Z. Yang, H. Bao, G. Zhang, Z. Cui</p>
+                    <p> Computer Vision and Pattern Recognition (CVPR 2023)</p>
+                    <p> 
+                    [<a href="https://arxiv.org/abs/2303.13277">Paper</a>]
+                    [<a href="https://zju3dv.github.io/sine/">Project Webpage</a>]
+                    [<a href="https://github.com/zju3dv/SINE">Codes</a>]
+                    </p>
+                </div>
+            </div>
+            <br>
+          </div>
+
+          <div class="filterDiv neural_rendering">
+            <div class="row featurette align-items-center" id="CVPR2023_HybridNeRF">
+                <div class="col-md-2">
+
+                    <img class="featurette-image img-responsive img-thumbnail"  src="publication/cvpr2023/CVPR2023_HybridNerf.gif" alt="hybridnerf" style="width:256px;" />
+                </div>
+                <div class="col-md-10">
+                    <h4 class="featurette-heading" data-toggle="tooltip" > Hybrid Neural Rendering for Large-Scale Scenes with Motion Blur</h4>
+                    <p> P. Dai<sup>*</sup>, <b>Y. Zhang<sup>*</sup></b>, X. Yu, X. Lyu, X. Qi</p>
+                    <p> Computer Vision and Pattern Recognition (CVPR 2023)</p>
+                    <p> 
+                    [<a href="https://arxiv.org/abs/2304.12652">Paper</a>]
+                    [<a href="https://daipengwa.github.io/Hybrid-Rendering-ProjectPage/">Project Webpage</a>]
+                    [<a href="https://github.com/CVMI-Lab/HybridNeuralRendering">Codes</a>]
+                    </p>
+                </div>
+            </div>
+            <br>
+          </div>
+
+          <div class="filterDiv 3d_geometry">
+            <div class="row featurette align-items-center" id="CVPR2023_GradPU">
+                <div class="col-md-2">
+
+                    <img class="featurette-image img-responsive img-thumbnail"  src="publication/cvpr2023/CVPR2023_GradPU.jpeg" alt="gradpu" style="width:256px;" />
+                </div>
+                <div class="col-md-10">
+                    <h4 class="featurette-heading" data-toggle="tooltip" > Grad-PU: Arbitrary-Scale Point Cloud Upsampling via Gradient Descent with Learned Distance Functions</h4>
+                    <p> Y. He, D. Tang, <b>Y. Zhang</b>, X. Xue, Y. Fu</p>
+                    <p> Computer Vision and Pattern Recognition (CVPR 2023)</p>
+                    <p> 
+                    [<a href="https://arxiv.org/abs/2304.11846">Paper</a>]
+                    [<a href="https://yunhe20.github.io/Grad-PU/">Project Webpage</a>]
+                    [<a href="https://github.com/yunhe20/Grad-PU">Codes</a>]
+                    </p>
+                </div>
+            </div>
+            <br>
+          </div>
+
+          <div class="filterDiv dataset selected">
+            <div class="row featurette align-items-center" id="CHI2023_RAPSAI">
+                <div class="col-md-2">
+
+                    <img class="featurette-image img-responsive img-thumbnail"  src="publication/cvpr2023/CHI2023_RAPSAI.gif" alt="rapsai" style="width:256px;" />
+                </div>
+                <div class="col-md-10">
+                    <h4 class="featurette-heading" data-toggle="tooltip" > Rapsai: Accelerating Machine Learning Prototyping of Multimedia Applications through Visual Programming</h4>
+                    <p> R. Du, N. Li, J. Jin, M. Carney, S. Miles, M. Kleiner, X. Yuan, <b>Y. Zhang</b>, A. Kulkarni, X. Liu, S. Orts-Escolano, A. Kar, P. Yu, R. Iyengar, A. Kowdle, A. Olwal</p>
+                    <p> ACM SIG-CHI 2023</p>
+                    <p> 
+                    [<a href="https://duruofei.com/papers/Du_Rapsai-AcceleratingMachineLearningPrototypingOfMultimediaApplicationsThroughVisualProgramming_CHI2023.pdf">Paper</a>]
+                    [<a href="https://visualblocksforml.github.io">Project Webpage</a>]
+                    [<a href="https://visualblocksforml.github.io">Codes</a>]
+                    </p>
+                </div>
+            </div>
+            <br>
+          </div>
+
           <div class="filterDiv neural_rendering selected">
             <div class="row featurette align-items-center" id="ECCV2022_Neumesh">
                 <div class="col-md-2">
@@ -1257,6 +1362,11 @@
 
         <h4>Media Post:</h4>
         <ul>
+        <li>CNET, <a href="https://www.cnet.com/tech/mobile/samsung-google-and-qualcomm-team-up-on-a-new-mixed-reality-platform/">Samsung, Google and Qualcomm Team Up to Build a New Mixed-Reality Platform </a>, 2023.2  
+        <li>Forbes, <a href="https://www.forbes.com/sites/dereksaul/2022/07/19/google-begins-field-testing-ar-glasses-prototype/?sh=2f5685772d99">Google Begins Field-Testing AR Glasses Prototype  </a>, 2022.7  
+        <li>Bloomberg, <a href="https://www.bloomberg.com/news/articles/2022-05-11/google-shows-early-preview-of-augmented-reality-glasses">Google Shows Early Preview of Augmented Reality Glasses  </a>, 2022.5  
+        <li>Google TF blogpost, <a href="https://blog.tensorflow.org/2022/05/portrait-depth-api-turning-single-image.html?linkId=8063793">Portrait Depth API: Turning a Single Image Into a 3D Photo With TensorFlow.js  </a>, 2022.5  
+        <li>Google, <a href="https://blog.google/technology/developers/io-2022-keynote/?_ga=2.18115449.1380780175.1652330100-808420342.1652330100">Google I/O 2022: Advancing Knowledge and Computing </a>, 2022.5  
         <li>Google AI blogpost, <a href="https://ai.googleblog.com/2020/04/udepth-real-time-3d-depth-sensing-on.html">uDepth: Real-time 3D Depth Sensing on the Pixel 4</a>, 2020.4
         <li>Sohu, <a href="https://www.sohu.com/a/387588823_395737">谷歌Pixel 4手机前置摄像头，现已支持实时3D捕捉</a>, 2020.4
         <li>Engadget, <a href="https://www.engadget.com/2019-12-17-google-ai-pixel-4-portrait-mode.html">Google explains the science behind the Pixel 4's Portrait Mode</a>, 2019.12
