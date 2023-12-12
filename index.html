@@ -287,6 +287,7 @@
           <button class="btn" onclick="filterSelection('3d_geometry')"> 3D Geometry</button>
           <button class="btn" onclick="filterSelection('scene_understanding')"> Scene Understanding</button>
           <button class="btn" onclick="filterSelection('digital_human')"> Digital Human</button>
+          <button class="btn" onclick="filterSelection('generative_ai')"> Generative AI</button>
           <button class="btn" onclick="filterSelection('dataset')"> Dataset/Tool</button>
           <button class="btn" onclick="filterSelection('all')"> All</button>
         </div>
@@ -294,6 +295,138 @@
 
         <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
         <div class="container">
+
+          <div class="filterDiv neural_rendering digital_human">
+            <div class="row featurette align-items-center" id="SIGGRAPHA2023_LitNeRF">
+                <div class="col-md-2">
+
+                    <img class="featurette-image img-responsive img-thumbnail"  src="publication/ICCV2023/litnerf.gif" alt="litnerf" style="width:256px;" />
+                </div>
+                <div class="col-md-10">
+                    <h4 class="featurette-heading" data-toggle="tooltip" > LitNeRF: Intrinsic Radiance Decomposition for High-Quality View Synthesis and Relighting of Faces</h4>
+                    <p> K. Sarkar, M. Bühler, G. Li, D. Wang, D. Vicini, J. Riviere, <b>Y. Zhang</b>, S. Orts-Escolano1, P. Gotardo, T. Beeler, A. Meka</p>
+                    <p> ACM SIGGRAPH ASIA 2023</p>
+                    <p> 
+                    [<a href="https://drive.google.com/file/d/1fFbioHF6FMirIZPHhrdKwoYXHnv71GHL/view">Paper</a>]
+                    [<a href="https://syntec-research.github.io/LitNeRF/">Project Webpage</a>]
+                    </p>
+                </div>
+            </div>
+            <br>
+          </div>
+
+          <div class="filterDiv 3d_geometry">
+            <div class="row featurette align-items-center" id="TPAMI_DeepSFM">
+                <div class="col-md-2">
+
+                    <img class="featurette-image img-responsive img-thumbnail"  src="publication/deepsfm/deepsfm.jpg" alt="deepsfm_journal" style="width:256px;" />
+                </div>
+                <div class="col-md-10">
+                    <h4 class="featurette-heading" data-toggle="tooltip" > DeepSFM: Robust Deep Iterative Refinement for Structure From Motion </h4>
+                    <p> X. Wei, <b>Y. Zhang</b>, X. Ren, Z. Li, Y. Fu, X. Xue</p>
+                    <p> IEEE Transactions on Pattern Analysis and Machine Intelligence, 10.1109/TPAMI.2023.3307567</p>
+                    <p> 
+                    [<a href="https://www.computer.org/csdl/journal/tp/5555/01/10241282/1Qck3vEK0W4">Paper</a>]
+                    [<a href="https://weixk2015.github.io/DeepSFM/">Project Webpage</a>]
+                    </p>
+                </div>
+            </div>
+            <br>
+          </div>
+
+          <div class="filterDiv 3d_geometry digital_human">
+            <div class="row featurette align-items-center" id="ICCV2023_SG">
+                <div class="col-md-2">
+
+                    <img class="featurette-image img-responsive img-thumbnail"  src="publication/iccv2023/sg_hand.jpeg" alt="sg_hand" style="width:256px;" />
+                </div>
+                <div class="col-md-10">
+                    <h4 class="featurette-heading" data-toggle="tooltip" > Spectral Graphormer: Spectral Graph-based Transformer for Egocentric Two-Hand Reconstruction using Multi-View Color Images </h4>
+                    <p> THE. Tse, F. Mueller, Z. Shen, D. Tang, T. Beeler, M. Dou, <b>Y. Zhang</b>, S. Petrovic, HJ. Chang, J. Taylor, B. Doosti</p>
+                    <p> International Conference on Computer Vision (ICCV 2023)</p>
+                    <p> 
+                    [<a href="https://arxiv.org/abs/2308.11015">Paper</a>]
+                    [<a href="https://eldentse.github.io/Spectral-Graphormer/">Project Webpage</a>]
+                    </p>
+                </div>
+            </div>
+            <br>
+          </div>
+
+          <div class="filterDiv generative_ai">
+            <div class="row featurette align-items-center" id="ICCV2023_ARGEN">
+                <div class="col-md-2">
+
+                    <img class="featurette-image img-responsive img-thumbnail"  src="publication/iccv2023/ar_gen.jpeg" alt="ar_for_3D_gen" style="width:256px;" />
+                </div>
+                <div class="col-md-10">
+                    <h4 class="featurette-heading" data-toggle="tooltip" > Learning Versatile 3D Shape Generation with Improved AR Models</h4>
+                    <p> S. Luo, X. Qian, Y. Fu, <b>Y. Zhang</b>, Y. Tai, Z. Zhang, C. Wang, X. Xue</p>
+                    <p> International Conference on Computer Vision (ICCV 2023)</p>
+                    <p> 
+                    [<a href="https://arxiv.org/abs/2303.14700">Paper</a>]
+                    </p>
+                </div>
+            </div>
+            <br>
+          </div>
+
+          <div class="filterDiv 3d_geometry">
+            <div class="row featurette align-items-center" id="ICCV2023_DeformShape">
+                <div class="col-md-2">
+
+                    <img class="featurette-image img-responsive img-thumbnail"  src="publication/iccv2023/DeformShape.jpeg" alt="shape_rep_with_corr" style="width:256px;" />
+                </div>
+                <div class="col-md-10">
+                    <h4 class="featurette-heading" data-toggle="tooltip" > Self-supervised Learning of Implicit Shape Representation with Dense Correspondence for Deformable Objects </h4>
+                    <p> B. Zhang, J. Li, X. Deng, <b>Y. Zhang</b>, C. Ma, H. Wang</p>
+                    <p> International Conference on Computer Vision (ICCV 2023)</p>
+                    <p> 
+                    [<a href="https://arxiv.org/abs/2308.12590">Paper</a>]
+                    [<a href="https://iscas3dv.github.io/deformshape/">Project Webpage</a>]
+                    </p>
+                </div>
+            </div>
+            <br>
+          </div>
+
+          <div class="filterDiv 3d_geometry selected">
+            <div class="row featurette align-items-center" id="ICCV2023_TofSLAM">
+                <div class="col-md-2">
+
+                    <img class="featurette-image img-responsive img-thumbnail"  src="publication/iccv2023/light_tof_slam.jpeg" alt="light_weight_tof_for_slam" style="width:256px;" />
+                </div>
+                <div class="col-md-10">
+                    <h4 class="featurette-heading" data-toggle="tooltip" > Multi-modal neural radiance field for monocular dense slam with a light-weight tof sensor </h4>
+                    <p> X. Liu, Y. Li, Y. Teng, H. Bao, G. Zhang, <b>Y. Zhang</b>, Z. Cui</p>
+                    <p> International Conference on Computer Vision (ICCV 2023)</p>
+                    <p> 
+                    [<a href="https://arxiv.org/abs/2308.14383">Paper</a>]
+                    [<a href="https://zju3dv.github.io/tof_slam/">Project Webpage</a>]
+                    </p>
+                </div>
+            </div>
+            <br>
+          </div>
+
+          <div class="filterDiv neural_rendering digital_human dataset">
+            <div class="row featurette align-items-center" id="ICCV2023_HOHand">
+                <div class="col-md-2">
+
+                    <img class="featurette-image img-responsive img-thumbnail"  src="publication/iccv2023/ho-nerf.jpeg" alt="HO-NeRF" style="width:256px;" />
+                </div>
+                <div class="col-md-10">
+                    <h4 class="featurette-heading" data-toggle="tooltip" > Novel-view Synthesis and Pose Estimation for Hand-Object Interaction from Sparse Views</h4>
+                    <p> W. Qu, Z. Cui, <b>Y. Zhang</b>, C. Meng, C. Ma, X. Deng, H. Wang></p>
+                    <p> International Conference on Computer Vision (ICCV 2023)</p>
+                    <p> 
+                    [<a href="https://arxiv.org/abs/2308.11198">Paper</a>]
+                    [<a href="https://iscas3dv.github.io/HO-NeRF/">Project Webpage</a>]
+                    </p>
+                </div>
+            </div>
+            <br>
+          </div>
 
           <div class="filterDiv neural_rendering digital_human selected">
             <div class="row featurette align-items-center" id="CVPR2023_MonoAvatar">
@@ -494,7 +627,7 @@
             <br>
           </div>
 
-          <div class="filterDiv neural_rendering digital_human selected">
+          <div class="filterDiv neural_rendering digital_human generative_ai selected">
             <div class="row featurette align-items-center" id="SIGGRAPH2022_VoluxGAN">
                 <div class="col-md-2">
 
